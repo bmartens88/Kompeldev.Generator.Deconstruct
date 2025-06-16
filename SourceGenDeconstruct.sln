@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kompeldev.Generator.Deconstruct", "Kompeldev.Generator.Deconstruct\Kompeldev.Generator.Deconstruct.csproj", "{379A66C1-2499-41D6-BA51-98F1A22D0983}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kompeldev.Generator.ConsoleApp", "Kompeldev.Generator.ConsoleApp\Kompeldev.Generator.ConsoleApp.csproj", "{4B7C44BF-E6ED-406A-98F0-EB5CD5128061}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{379A66C1-2499-41D6-BA51-98F1A22D0983}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{379A66C1-2499-41D6-BA51-98F1A22D0983}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{379A66C1-2499-41D6-BA51-98F1A22D0983}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{379A66C1-2499-41D6-BA51-98F1A22D0983}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B7C44BF-E6ED-406A-98F0-EB5CD5128061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B7C44BF-E6ED-406A-98F0-EB5CD5128061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B7C44BF-E6ED-406A-98F0-EB5CD5128061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B7C44BF-E6ED-406A-98F0-EB5CD5128061}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

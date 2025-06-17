@@ -1,3 +1,7 @@
 ﻿namespace Kompeldev.Generator.Deconstruct;
 
-public record ClassInfo(string Namespace, string ClassName, (string Name, string Type)[] Properties);
+public record ClassInfo(
+    string Accessibility,
+    string Namespace,
+    string ClassName,
+    EquatableArray<(string Name, string Type)> Properties);

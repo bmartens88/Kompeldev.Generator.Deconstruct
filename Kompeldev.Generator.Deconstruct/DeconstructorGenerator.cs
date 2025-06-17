@@ -68,7 +68,7 @@ public class DeconstructorGenerator : IIncrementalGenerator
     private static void PostInitialize(IncrementalGeneratorPostInitializationContext context)
     {
         context.AddSource("Kompeldev.Generator.Deconstruct.DeconstructorAttribute.g.cs",
-            SourceText.From(DeconstructConstants.AttributeContent, Encoding.UTF8));
+            SourceText.From(DeconstructConstants.DeconstructAttributeContent, Encoding.UTF8));
         context.AddSource("Kompeldev.Generator.Deconstruct.IgnorePropertyAttribute.g.cs",
             SourceText.From(DeconstructConstants.IgnorePropertyAttributeContent, Encoding.UTF8));
     }

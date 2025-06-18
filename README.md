@@ -105,3 +105,11 @@ var (name, _) = p;
 ```
 
 Please note that for types with just a single property, a *deconstructor* makes no sense and therefore Deconstruct does not support those types.
+
+```mermaid
+graph TD;
+    A-->B;
+    A-->C;
+    B-->D;
+    C-->D;
+```
